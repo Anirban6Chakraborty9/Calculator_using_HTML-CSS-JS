@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Source+Code+Pro&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url("wood.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button{
+    padding: 20px;
+    cursor: pointer;
+    margin: 4px 6px 2px 6px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.6);
+    font-weight: 550;
+    
+}
+
+.button2{
+    padding: 20px;
+    cursor: pointer;
+    margin: 3px 5px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    font-weight: 550;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.6);
+    
+}
+
+.rows{
+    margin: 8px 0px;
+}
+
+.row input{
+    margin: 12px 10px 0px 10px;
+    padding: 10px 30px;
+    background-color:darkgray;
+    border-radius:4px;
+    border: 1.5px solid black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.container{
+    background-color:rgb(95, 94, 103);
+    border: 2px solid rgb(95, 94, 103);
+    border-radius: 15px;
+    width:max-content;
+    box-shadow: 5px 20px 25px 5px rgba(0,0,0,0.8);
+}
+
